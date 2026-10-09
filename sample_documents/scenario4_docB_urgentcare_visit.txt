@@ -1,0 +1,15 @@
+WESTSIDE URGENT CARE ENCOUNTER
+Patient: Marcus Brody | MRN: SYN-99034 | Date: 18 February 2026
+
+CHIEF COMPLAINT:
+Sprained right ankle following athletic activity.
+
+PHYSICAL EXAMINATION:
+Mild edema around lateral malleolus. No bony tenderness.
+Lungs clear. Heart regular.
+
+MEDICATIONS:
+Amlodipine 5 mg daily.
+
+PLAN:
+RICE protocol. Ibuprofen 400 mg PRN. Follow up with PCP in 10 days.

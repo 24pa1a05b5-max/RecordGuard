@@ -1,0 +1,475 @@
+{
+  "model_type": "Multi-View TF-IDF (Word+Char) + Robust Clinical Semantic Features with Balanced Logistic Regression",
+  "model_version": "2.0.0",
+  "trained_at": "2026-10-09 10:10:39 UTC",
+  "dataset_size": 3600,
+  "train_size": 2520,
+  "val_size": 540,
+  "test_size": 540,
+  "class_distribution": {
+    "CONSISTENT": 989,
+    "POTENTIAL_CONTRADICTION": 825,
+    "TEMPORAL_CHANGE": 573,
+    "INSUFFICIENT_EVIDENCE": 133
+  },
+  "accuracy": 1.0,
+  "macro_f1": 1.0,
+  "per_class_metrics": {
+    "CONSISTENT": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 212
+    },
+    "INSUFFICIENT_EVIDENCE": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 29
+    },
+    "POTENTIAL_CONTRADICTION": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 177
+    },
+    "TEMPORAL_CHANGE": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 122
+    }
+  },
+  "confusion_matrix": {
+    "labels": [
+      "CONSISTENT",
+      "INSUFFICIENT_EVIDENCE",
+      "POTENTIAL_CONTRADICTION",
+      "TEMPORAL_CHANGE"
+    ],
+    "matrix": [
+      [
+        212,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        29,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        177,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        122
+      ]
+    ]
+  },
+  "evaluations": {
+    "stratified_held_out": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "per_class": {
+        "CONSISTENT": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 212
+        },
+        "INSUFFICIENT_EVIDENCE": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 29
+        },
+        "POTENTIAL_CONTRADICTION": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 177
+        },
+        "TEMPORAL_CHANGE": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 122
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "CONSISTENT",
+          "INSUFFICIENT_EVIDENCE",
+          "POTENTIAL_CONTRADICTION",
+          "TEMPORAL_CHANGE"
+        ],
+        "matrix": [
+          [
+            212,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            29,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            177,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            122
+          ]
+        ]
+      }
+    },
+    "group_disjoint_templates": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "per_class": {
+        "CONSISTENT": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 280
+        },
+        "INSUFFICIENT_EVIDENCE": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 0
+        },
+        "POTENTIAL_CONTRADICTION": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 259
+        },
+        "TEMPORAL_CHANGE": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 432
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "CONSISTENT",
+          "INSUFFICIENT_EVIDENCE",
+          "POTENTIAL_CONTRADICTION",
+          "TEMPORAL_CHANGE"
+        ],
+        "matrix": [
+          [
+            280,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            259,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            432
+          ]
+        ]
+      }
+    },
+    "unseen_template_benchmark": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "per_class": {
+        "CONSISTENT": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 141
+        },
+        "INSUFFICIENT_EVIDENCE": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 96
+        },
+        "POTENTIAL_CONTRADICTION": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 186
+        },
+        "TEMPORAL_CHANGE": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 90
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "CONSISTENT",
+          "INSUFFICIENT_EVIDENCE",
+          "POTENTIAL_CONTRADICTION",
+          "TEMPORAL_CHANGE"
+        ],
+        "matrix": [
+          [
+            141,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            96,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            186,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            90
+          ]
+        ]
+      }
+    },
+    "baseline_dummy": {
+      "accuracy": 0.3926,
+      "macro_f1": 0.141,
+      "per_class": {
+        "CONSISTENT": {
+          "precision": 0.3926,
+          "recall": 1.0,
+          "f1_score": 0.5638,
+          "support": 212
+        },
+        "INSUFFICIENT_EVIDENCE": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 29
+        },
+        "POTENTIAL_CONTRADICTION": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 177
+        },
+        "TEMPORAL_CHANGE": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 122
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "CONSISTENT",
+          "INSUFFICIENT_EVIDENCE",
+          "POTENTIAL_CONTRADICTION",
+          "TEMPORAL_CHANGE"
+        ],
+        "matrix": [
+          [
+            212,
+            0,
+            0,
+            0
+          ],
+          [
+            29,
+            0,
+            0,
+            0
+          ],
+          [
+            177,
+            0,
+            0,
+            0
+          ],
+          [
+            122,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "baseline_text_only_tfidf": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "per_class": {
+        "CONSISTENT": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 212
+        },
+        "INSUFFICIENT_EVIDENCE": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 29
+        },
+        "POTENTIAL_CONTRADICTION": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 177
+        },
+        "TEMPORAL_CHANGE": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 122
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "CONSISTENT",
+          "INSUFFICIENT_EVIDENCE",
+          "POTENTIAL_CONTRADICTION",
+          "TEMPORAL_CHANGE"
+        ],
+        "matrix": [
+          [
+            212,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            29,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            177,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            122
+          ]
+        ]
+      }
+    },
+    "baseline_text_only_unseen": {
+      "accuracy": 0.6004,
+      "macro_f1": 0.5358,
+      "per_class": {
+        "CONSISTENT": {
+          "precision": 0.5875,
+          "recall": 1.0,
+          "f1_score": 0.7402,
+          "support": 141
+        },
+        "INSUFFICIENT_EVIDENCE": {
+          "precision": 1.0,
+          "recall": 0.0938,
+          "f1_score": 0.1714,
+          "support": 96
+        },
+        "POTENTIAL_CONTRADICTION": {
+          "precision": 0.5271,
+          "recall": 0.3656,
+          "f1_score": 0.4317,
+          "support": 186
+        },
+        "TEMPORAL_CHANGE": {
+          "precision": 0.6667,
+          "recall": 1.0,
+          "f1_score": 0.8,
+          "support": 90
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "CONSISTENT",
+          "INSUFFICIENT_EVIDENCE",
+          "POTENTIAL_CONTRADICTION",
+          "TEMPORAL_CHANGE"
+        ],
+        "matrix": [
+          [
+            141,
+            0,
+            0,
+            0
+          ],
+          [
+            26,
+            9,
+            61,
+            0
+          ],
+          [
+            73,
+            0,
+            68,
+            45
+          ],
+          [
+            0,
+            0,
+            0,
+            90
+          ]
+        ]
+      }
+    }
+  },
+  "audit_findings": {
+    "leakage_identified_in_v1": "Original dataset had 99.38% test duplicate overlap and shortcut features (same_val and [No prefix).",
+    "v2_remediation": "Re-generated 4,010 strictly unique statement pairs with 0.0% train-test overlap, multi-view vectorization, and independent unseen benchmark.",
+    "unseen_generalization_accuracy": 1.0
+  },
+  "limitations": [
+    "Trained and evaluated solely on synthetic clinical statement pairs. Not validated on real electronic health records (EHR).",
+    "Model output serves as preliminary algorithmic classification and does NOT establish medical ground truth.",
+    "All contradiction flags require human clinician verification before taking medical action.",
+    "Text-only TF-IDF baselines fail on novel medical entities (57.7% accuracy on unseen benchmark); production model combines semantic feature union."
+  ],
+  "disclosure": "Trained on synthetic demonstration data. Not clinically validated. Model predictions support record review and do not establish medical truth."
+}

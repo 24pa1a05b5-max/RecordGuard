@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1076542230962",
+    "firebase_url": "https://prototype-b19c8-default-rtdb.firebaseio.com",
+    "project_id": "prototype-b19c8",
+    "storage_bucket": "prototype-b19c8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076542230962:android:ecf7711fd249efc4aa94ab",
+        "android_client_info": {
+          "package_name": "com.recordguard.frontend"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJx70kOQwvoaQeP10A7OuaaL84tv9Bw90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

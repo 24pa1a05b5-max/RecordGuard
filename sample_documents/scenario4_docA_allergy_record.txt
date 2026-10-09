@@ -1,0 +1,12 @@
+ST. JUDE REGIONAL CLINIC - PATIENT SUMMARY
+Patient: Marcus Brody | MRN: SYN-99034 | Date: 05 February 2026
+
+DOCUMENTED ALLERGIES:
+Penicillin allergy (hives and wheezing).
+
+ACTIVE MEDICATIONS:
+Amlodipine 5 mg daily.
+Hydrochlorothiazide 25 mg daily.
+
+DIAGNOSIS:
+Essential Hypertension.

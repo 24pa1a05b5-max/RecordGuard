@@ -1,0 +1,52 @@
+{
+  "dataset_name": "RecordGuard Synthetic Clinical Contradiction Dataset (Audited Leak-Free v2)",
+  "version": "2.0.0",
+  "random_seed": 42,
+  "total_unique_in_distribution": 3600,
+  "splits": {
+    "train": 2520,
+    "validation": 540,
+    "test_stratified": 540,
+    "group_train": 2629,
+    "group_test_disjoint": 971,
+    "unseen_template_benchmark": 513
+  },
+  "class_distribution_train": {
+    "CONSISTENT": 989,
+    "POTENTIAL_CONTRADICTION": 825,
+    "TEMPORAL_CHANGE": 573,
+    "INSUFFICIENT_EVIDENCE": 133
+  },
+  "class_distribution_test": {
+    "CONSISTENT": 212,
+    "POTENTIAL_CONTRADICTION": 177,
+    "TEMPORAL_CHANGE": 122,
+    "INSUFFICIENT_EVIDENCE": 29
+  },
+  "class_distribution_unseen": {
+    "POTENTIAL_CONTRADICTION": 186,
+    "CONSISTENT": 141,
+    "INSUFFICIENT_EVIDENCE": 96,
+    "TEMPORAL_CHANGE": 90
+  },
+  "template_families": [
+    "ALLERGY_CONCORDANT_CONFIRMATION",
+    "ALLERGY_CONCORDANT_DENIAL_NKDA",
+    "ALLERGY_OMITTED_SECTION",
+    "ALLERGY_POSITIVE_VS_DENIAL",
+    "DX_CONCORDANT_PROBLEM_LIST",
+    "DX_CONFIRMED_VS_RULED_OUT",
+    "DX_PRELIMINARY_WORKUP_INCOMPLETE",
+    "LAB_CONCORDANT_REPEAT",
+    "LAB_CONCURRENT_DIFFERENT_VALUES",
+    "LAB_SERIAL_PHYSIOLOGIC_MONITORING",
+    "LAB_UNIT_CONVERSION_EQUIVALENT",
+    "MED_BRAND_GENERIC_EQUIVALENCE",
+    "MED_CONCORDANT_SAME_PRESCRIPTION",
+    "MED_CONCURRENT_DOSE_CONFLICT",
+    "MED_DISCONTINUATION_OVER_TIME",
+    "MED_DOSE_TITRATION_CHRONOLOGICAL",
+    "MED_OMISSION_ENCOUNTER_NOTE"
+  ],
+  "synthetic_disclosure": "ALL DATA IS SYNTHETICALLY GENERATED FOR CLINICAL RECORD CONTRADICTION BENCHMARKING. DOES NOT CONTAIN REAL PHI."
+}
